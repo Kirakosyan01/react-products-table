@@ -277,6 +277,7 @@ export default function AppRouter() {
                   usersData={usersData}
                   handleIsDeleted={handleIsDeleted}
                   handleIsUpdate={handleIsUpdate}
+                  setUsersData={setUsersData}
                 />
               }
             />

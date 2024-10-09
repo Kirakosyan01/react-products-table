@@ -3,7 +3,9 @@ import userDefault from "../../images/user_default.png";
 import PageTransition from "../../PageTransition/PageTransition";
 import NotFound from "../../Components/NotFound/NotFound";
 
-export default function AllUsers({ usersData, handleIsDeleted, handleIsUpdate }) {
+export default function AllUsers({ usersData, handleIsDeleted, handleIsUpdate, setUsersData }) {
+
+
   return (
     <PageTransition>
       {usersData.length > 0 ? null : <NotFound />}

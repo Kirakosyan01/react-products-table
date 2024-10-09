@@ -12,7 +12,7 @@ export default function WelcomePage() {
     <div>
       <Lottie animationData={animationData}/>
     </div>
-    <div className='text-5xl ml-20'>
+    <div className='text-5xl ml-24 max-w-md'>
       <MyComponent />
     </div>
       </div>
